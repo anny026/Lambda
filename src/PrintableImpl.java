@@ -5,15 +5,11 @@ import java.awt.print.PrinterException;
 
 public class PrintableImpl implements Printable {
     Printable printable;
-
-
     public static void ChangePrint() {
         interface Printable {
             void print(String x,String y);
         }
-    }
-
-    @Override
+    }    @Override
     public int print(Graphics graphics, PageFormat pageFormat, int pageIndex) throws PrinterException {
         return 0;
     }

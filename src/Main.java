@@ -67,7 +67,7 @@ public class Main {
         System.out.println("Задача 6");
         Supplier<Integer> supplier = () -> (int) (Math.random() * 10);
         System.out.println(supplier.get());
-
+        
         //Задача 7
         System.out.println("Задача 7");
         PrintableImpl.ChangePrint();
